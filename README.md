@@ -43,10 +43,6 @@ npm run dev
 
 ## 📝 Licença
 
-<a href="https://opensource.org/licenses/MIT">
-    <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
-</a>
-
 Esse projeto está sob a licença MIT.
 
 ---
