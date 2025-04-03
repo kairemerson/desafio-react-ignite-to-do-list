@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.created {
+    color: var(--blue);
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+.completed {
+    color: var(--purple);
+    font-weight: bold;
+    margin-right: 0.5rem;
+}
+
+.completed + span {
+    padding: 2px 8px;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
+.created + span {
+    padding: 2px 8px;
+    background: var(--gray-400);
+    color: var(--gray-200);
+    border-radius: 16px;
+    font-weight: bold;
+    font-size: 0.75rem;
+}
