@@ -39,7 +39,7 @@ npm install
 
 # Execute a aplicação
 npm run dev
-
+```
 
 ## 📝 Licença
 
