@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+<p align="center">
+  <img width="20%" src="./src/assets/logo.svg" />
+</p>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+    <strong>Aplicação web de todo list.</strong>
+</p>
 
-Currently, two official plugins are available:
+<h4 align="center"> 
+	Projeto concluído 🚀
+</h4>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 💻 Sobre o projeto
 
-## Expanding the ESLint configuration
+Desafio do curso Ignite da Rocketseat. Projeto de ToDo App. Essa aplicação apesar de simples é um excelente exemplo para praticar o desenvolvimento de apps CRUD (Create, Read, Update, Delete).
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## 🔨 Tecnologias utilizadas
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+As seguintes ferramentas foram usadas na construção do projeto:
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- **[ReactJS](https://reactjs.org/)**
+- **[TypeScript](https://www.typescriptlang.org/)**
+- **[Css-Module](https://sass-lang.com/)**
+- **[Vite](https://vitejs.dev/)**
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+
+## 🚀 Instalação e uso
+
+```bash
+# Clone o repositório
+git clone https://github.com/kairemerson/desafio-react-ignite-to-do-list.git
+
+# Acesse a pasta do projeto
+cd desafio-react-ignite-to-do-list
+
+# Instale as dependências
+npm install
+
+# Execute a aplicação
+npm run dev
+
+
+## 📝 Licença
+
+<a href="https://opensource.org/licenses/MIT">
+    <img alt="GitHub" src="https://img.shields.io/github/license/mateusabelli/ignite-todo-app">
+</a>
+
+Esse projeto está sob a licença MIT.
+
+---
+
+Feito por [Remerson Monteiro](https://github.com/kairemerson)
