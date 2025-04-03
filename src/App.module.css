@@ -1,0 +1,16 @@
+.container {
+    max-width: 736px;
+    width: 100%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.68rem;
+}
+
+.listContainer {
+    max-width: 736px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
